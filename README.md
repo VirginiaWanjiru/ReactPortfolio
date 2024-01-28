@@ -69,6 +69,8 @@ What is a Promise? Bring an example
 
 A promise is like a placeholder for the result of an operation whether successful or not.
 
+eg.
+
 let NewPromise = new Promise((resolve, reject) => {
   
   setTimeout(() => {
