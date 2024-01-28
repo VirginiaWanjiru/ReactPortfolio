@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import './styles.css'; // Import your CSS file
+
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Section from './components/Section';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <Header />
+      <Section id="introduction" title="PROFESSIONAL SUMMARY">
+        {/* Your typing effect script goes here */}
+      </Section>
+      <Section id="skills" title="Programming Languages and IDES">
+        {/* Skills list goes here */}
+      </Section>
+      <Section id="frameworks" title="Frameworks">
+        {/* Frameworks list goes here */}
+      </Section>
+      <Section id="work_experience" title="WORK EXPERIENCE">
+        {/* Work experience list goes here */}
+      </Section>
+      <Section id="Learning" title="LEARNING TIMELINE">
+        {/* Learning timeline goes here */}
+      </Section>
+      <Section id="Hobbies" title="Hobbies">
+        {/* Hobbies list goes here */}
+      </Section>
+      <Footer />
     </div>
   );
 }
