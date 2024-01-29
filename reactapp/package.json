@@ -1,4 +1,4 @@
-{
+{"homepage": "https://github.com/VirginiaWanjiru/ReactPortfolio",
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
@@ -40,4 +40,6 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
+
+  
 }
