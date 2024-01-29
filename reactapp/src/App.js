@@ -9,6 +9,8 @@ import WorkExperience from './components/WorkExperience';
 import LearningTimeline from './components/LearningTimeline';
 import Hobbies from './components/Hobbies';
 import Footer from'./components/Footer';
+import Joksie from'./components/Joksie';
+
 
 
   
@@ -25,7 +27,9 @@ function App() {
       <WorkExperience></WorkExperience>
       <LearningTimeline ></LearningTimeline>
       <Hobbies></Hobbies>
+      <Joksie></Joksie>
       <Footer></Footer>
+    
       </div>
        ) }
         
