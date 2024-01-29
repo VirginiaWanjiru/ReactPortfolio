@@ -6,6 +6,7 @@ function Introduction() {
     <section id="introduction">
       <h2>PROFESSIONAL SUMMARY</h2>
       <p id="typing-text">
+        
         I am a dedicated and detail-oriented recent IT undergraduate specializing in Software Engineering, eager to
         leverage academic excellence and hands-on experience to enhance organizational efficiency through IT solutions.
         Proficient in analytical thinking and problem-solving, with a track record of successfully executing IT projects.
