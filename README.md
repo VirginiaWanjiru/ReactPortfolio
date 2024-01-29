@@ -6,7 +6,7 @@ Q and A section
 
 Questions
 What is NPM?
-NMP stands for node package manager which developers use to install dependencies, manage versions, run scripts in a package.json file, and share code. It simplifies package management and helps streamline the development process.
+Npm stands for node package manager which developers use to install dependencies, manage versions, run scripts in a package.json file, and share code. It simplifies package management and helps streamline the development process.
 
 What is SPA?
 SPA is a type of web application that dynamically updates content on a single web page rather than loading separate pages from the server. SPAs use JavaScript to interact with the server and update the page without requiring full page reloads, resulting in faster and more responsive user experiences guaranteeing immediate response to change.
