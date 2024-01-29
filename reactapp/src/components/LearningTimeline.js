@@ -3,9 +3,12 @@ import React from 'react';
 
 function LearningTimeline() {
   return (
-    <section id="Learning" className="timeline">
+    <section id="Learning" className="timeline"
+    >
       <div className="container left">
+      <h1>Learning Timeline</h1>
         <div className="content">
+          
           <h2>2020 the beginning</h2>
           <p>
             January: Introduced to the world of programming through online articles and videos. Decided to explore further.
